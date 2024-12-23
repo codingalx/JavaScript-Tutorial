@@ -4,3 +4,57 @@ paragph and many other things
 when we have elemets inside element its called nesting like when button is inside the paragph
 in web pages multiple pages are conbined into one pages.that means if one elemets and that elemets are 
 has many lines of spaces the webpages are considerd that many lines or space as one space.
+even the new lines are considered as one line or space .
+the web page is a single pages like (gome pages, about pages just like components in react but to getther )
+when its conbibed it becames website.
+css --changes the appreance of our html elemets.(special elements of html )
+its not not visible in web
+to change the appreance of the html we should create the html elemts called the sylem and we call the 
+elemts of htm that we want to style it.
+in css we told the computer which elemts we want change its appreance and we change the 
+properties one by one.
+in css snthax there are many things we should know it. these are element selctor that menas our 
+target to the elements that we want to change.
+what we are changing ---and its prperties.
+//htm attributes??
+as we says there are many htm elemts some of them are p, button ..but when we style them we 
+may have many button .so to diffentely style them how do we do it.by using the html attributes.
+if we want to change the the specific elemts of html from many let says many buttons we use
+the attributes called class  and we can style them as we want
+for exaple if we add the toop tip it cause the text to be showed like the button we created 
+to do these we use the html attributes called title and we write the text to be showed when
+the user hover over the elememt.
+we always place the attributes in the opening tags and write the text
+by adding the html attributes to the class we can differtly
+style the specific elemts. for exalpme if i add the 
+class and write the  class name in the htm attributes by saying the red-button, we can fsytle 
+them by selecting that specific name in the style and by .cleassname  i can do every thingsi want
+by giving the same name to the to many html elemnt we can style all of them 
+at the same time if we want it.
+if we want to style each of the elemts we can syle them 
+individually.
+// hetm structucre
+the html has always the following parts thees are the html,header,body
+<!DOCTYPE html>-- these is not html elemets but it tells to the browser to 
+use the modern version of html.
+<html></html>---the html elemt represent the entire elemets elemts in the web pages.
+every thing in the web pages are going (placed )into the html elemts
+inside htm elememt we split into two these are the header and body elememt.
+<body> elememt contains every things that is visible on the page
+the head elemts contains the information about the pages.
+every thing that is not visible in the pages goes inside the header.
+in our case its the style 
+// java script running inside the html 
+in the above part we see that we can style the html elemets by using the special elemets of html called the style. these same is true we can also write the javascript code in side the html by using the html elemts.
+when we write the script inside the html we usually place them in the bottom of the elemts because we want to make our html elemts to be intracted.
+another ways to write the java script code inside the html is by using the attribute  called the onclick... when we clicked the elemts the things are going to happens.
+//  comment
+a pieace of code or data that is ignorred by computer after that. we use the comments that allow peoples to understand other people to unserstand our code. we can also we use by our self to remind our self.
+in order to igrore one line we use the // and to igrone many /*by placing here we ignore many line at one*/
+the console.log is running inside the browser 
+inside these section we learned about the follwing 
+1 Review of html,css 
+2 set up vs code
+3 load the javacript code inside the html
+commenting 
+console.log
