@@ -1,2 +1,6 @@
 ending the files with .html tells to computers that this file is an html 
-each of the things that we are wtitting is called html elememts.these are the buttons, paragph and many other things
+each of the things that we are wtitting is called html elememts.these are the buttons, 
+paragph and many other things
+when we have elemets inside element its called nesting like when button is inside the paragph
+in web pages multiple pages are conbined into one pages.that means if one elemets and that elemets are 
+has many lines of spaces the webpages are considerd that many lines or space as one space.
