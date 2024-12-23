@@ -1,0 +1,2 @@
+ending the files with .html tells to computers that this file is an html 
+each of the things that we are wtitting is called html elememts.these are the buttons, paragph and many other things
