@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Card Quantity </title>
+    </header>
+    <body>
+        <button onclick="
+        console.log(`cardQuantity:${cardQuantity}`)
+            ">Show Quantity
+        </button>
+        <button onclick="
+        // cardQuantity =cardQuantity +1;
+        // cardQuantity+=1 the short ways
+        cardQuantity ++;
+        console.log(`cardQuantity:${cardQuantity }`)
+        "
+        >Add to Cart
+    </button>
+        <button onclick="
+        cardQuantity =cardQuantity+2;
+        console.log(`cardQuantity:${cardQuantity}`)
+        ">
+            +2
+        </button>
+        <button onclick="
+        cardQuantity = cardQuantity +3;
+        console.log(`card was reset:${cardQuantity }`)
+        ">
+            +3
+        </button>
+        <button onclick="
+        cardQuantity=0;
+        console.log(`cardQuantity:${cardQuantity }`)
+        ">
+            Reset Cart
+        </button>
+        <script>
+            let cardQuantity =0;
+        
+        </script>
+        
+    </body>
+</html>

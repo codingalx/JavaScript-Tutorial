@@ -1,0 +1,51 @@
+variable is a container
+we can save a value and then user it later
+the word called let create the new variables and name it by saying as youlike
+and we assign the values to it
+in privious time we are using the numbers or any things to diplay any valuse but now we can console values by saving the valuse into the variable
+in addition to number we can save the values inside the valriables including the strings
+snthaic rule
+the word let create the new variale then we give the name to use later.
+we can name the variables any name we want except some restrictions:
+we can't use the speacilz word example let.because these special words has 
+meaning in javascrip(let let =3 XX) but we can use let1, let2...
+second we can't start the variable name by the name ... like 2name beacuse javacript think it a number but we can use the number in the middle or in the end of the variable name like name2 ,nam2e.. like these.
+we cannot use the special characters except :$_
+and we can make the space in between of  the namne likre nam a 
+semi colorn is saying thsese is the end of the code.we need some color to separteate many lines of code in one line.
+like console.log('this'); console.log('this is also true');
+if we cannot place the semi color at the end java scripot thinks as one line of code and it will causes the error.
+in js is a litle special it allow final insertion to a code like console.log('thsi')
+after saving the valuse into variable and place the value into it we can change the values into another by calling the varaible name and reassining it
+but in the first call that menas without changing the values the consoled valuse is the old one.
+first when we create the variable and place the values inside it its called assigning the values... and after that if we are assigning that variables into another its called reassiging the valuse and the values are changed into the assiged too.
+when we assiginig the value we cannot use the let , because we are not creating the new values..but we call the variable name we want to reagging and we place the new number.
+if create the by saing the variable that are already existed it cause error beacuse reagginig is not possible.
+// in order to do the variable (card qualnity project) we first create the buttons for all. then we need to save values some where for all thees valuse.
+the short cut for reassiging the values of variablkes are like cardQuantity+=2... like that 
+//the best practice for naming the variables
+as we said we cannot have the space in between of the variable name but we can conbined them together just like cardQuantity..
+there are naming conversion for naming the variables...these are 
+1) camelcase just we name it above we begin with samll letter ,then inside the the name if we have another word we make it capital letetrs.
+in the programming there is also another naming vonvesion for naming the variales like pascalCase ..which the same as the camelcase but it capitalize the first letter of the name also. like CardQuanity
+in js we camel case only in one case we use pascal case.
+kebel-case that means we place - in between of words. but in js thees cannot work because the - has special case in js which is negative sign in js so we would not use it for naming.
+snake_case we place underscore in between of the words.we cannot use it js 
+when we naming variable in js do not make it too long or too short. try to make it clear as much as possible.
+if we name cardQuanity like C (we acnnot understand what does it means?)
+if we make cardQuantityIntheEcomerce... its noo long..we cannot do it also.
+there are three ways to create the variablres in js
+first one is by saing let,
+we can also use const variableName = 3; we use it to create the new variables but we cannot change the valuse that is why we call it const.
+if we try to change the values just like the let ...we cannot.
+example variableNmae =6;(we cannot do these).
+why we use const over the let?? const makes our code safer and easier to understand.that means when we create the variable with const our values are always the same and we cannot change as we like . but incase of the let we can change it that make some times difficults
+the best practice is to use const by defaule and only use the let when we need to change the variable.
+the third way is by saing the var variable =3; its the same with the let we can change it latter but its old and some issue that is not good.
+(let,const,var)
+
+// with the variable we can use the typeOf 
+
+in these lesson we learned
+1) variables = a way to save values
+2) Re-assign a varibales
