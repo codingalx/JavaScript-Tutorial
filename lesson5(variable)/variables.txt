@@ -49,3 +49,6 @@ the third way is by saing the var variable =3; its the same with the let we can 
 in these lesson we learned
 1) variables = a way to save values
 2) Re-assign a varibales
+3) shortcuts for reassining
+4)naming conesion  and the best practice for naming 
+5) thress ways to create the variables.
