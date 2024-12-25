@@ -393,7 +393,7 @@ console.log(window.globalVar); // "I'm global!"
 Summary
 Global Scope: Variables accessible everywhere.
 Function Scope: Variables defined inside a function are only accessible there.
-Block Scope: let and const limit variables to the block they are declared in.
+Block Scope: let and const limit variables to the block they are declared in.thiss
 Lexical Scope: Inner functions can access outer function variables.
 Use let and const to avoid unexpected behaviors with var and ensure clean scoping.
 
