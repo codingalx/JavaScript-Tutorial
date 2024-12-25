@@ -1,0 +1,413 @@
+what are boolens??
+boolens are another types values but its special because there are only 
+2 boolean values: true ,false.
+what is the purpose of boolen values?? represents wheather something is true or false.for example in js we can compare two numbers and by comparing these values we can get values from the comparison.
+whatb is the synthax rule for boolens??
+
+to create the boolens we type true or false.we cannot surrond it true or false.if we did it becames the a string values. when we create the bullen do not surrond these two values as true or false in coutaion.
+one way to create the boolen is by compare things.there many comparision operator that will create the  boolen when we compare them.
+inorder of operations
+(...)
+*/
++-
+comparison operators
+logical operators
+
+In JavaScript, comparison values involve comparing variables or expressions to determine their equality, inequality, or relative value. Here’s an overview of common comparison operators and their behavior:
+
+
+Equality Operators
+== (Loose Equality)
+Compares two values for equality after converting them to a common type (type coercion occurs).
+
+js
+Copy code
+console.log(5 == '5'); // true (type coercion happens)
+console.log(0 == false); // true (type coercion happens)
+=== (Strict Equality)
+Compares two values for equality without type conversion.
+
+js
+Copy code
+console.log(5 === '5'); // false (no type coercion)
+console.log(0 === false); // false (different types)
+Inequality Operators
+!= (Loose Inequality)
+Checks if two values are not equal, with type coercion.
+
+js
+Copy code
+console.log(5 != '5'); // false (type coercion happens)
+console.log(0 != false); // false (type coercion happens)
+!== (Strict Inequality)
+Checks if two values are not equal without type conversion.
+
+js
+Copy code
+console.log(5 !== '5'); // true (no type coercion)
+console.log(0 !== false); // true (different types)
+Relational Operators
+> (Greater Than)
+
+js
+Copy code
+console.log(10 > 5); // true
+console.log('b' > 'a'); // true (alphabetical order)
+< (Less Than)
+
+js
+Copy code
+console.log(5 < 10); // true
+console.log('a' < 'b'); // true (alphabetical order)
+>= (Greater Than or Equal To)
+
+js
+Copy code
+console.log(10 >= 10); // true
+console.log(10 >= 5); // true
+<= (Less Than or Equal To)
+
+js
+Copy code
+console.log(5 <= 10); // true
+console.log(10 <= 10); // true
+
+Special Cases
+Comparing NaN
+Any comparison with NaN always returns false.
+
+js
+Copy code
+console.log(NaN === NaN); // false
+console.log(NaN > 5); // false
+Use isNaN() to check if a value is NaN:
+
+js
+Copy code
+console.log(isNaN(NaN)); // true
+Null and Undefined
+
+null == undefined is true (loose equality).
+null === undefined is false (strict equality).
+js
+Copy code
+console.log(null == undefined); // true
+console.log(null === undefined); // false
+Strings and Numbers
+When comparing a string with a number, JavaScript converts the string to a number:
+
+js
+Copy code
+console.log('10' > 5); // true (string '10' becomes number 10)
+console.log('10' === 10); // false (different types)
+Booleans and Numbers
+Booleans are converted to numbers (true = 1, false = 0) during comparison:
+
+js
+Copy code
+console.log(true == 1); // true
+console.log(false == 0); // true
+Object Comparisons
+Objects are compared by reference, not by value:
+
+js
+Copy code
+const obj1 = { name: 'Alice' };
+const obj2 = { name: 'Alice' };
+console.log(obj1 == obj2); // false (different references)
+console.log(obj1 === obj2); // false (different references)
+To compare object values, you need to check individual properties:
+
+js
+Copy code
+console.log(JSON.stringify(obj1) === JSON.stringify(obj2)); // true
+Summary
+Use === and !== for precise comparisons to avoid unexpected results due to type coercion.
+Be cautious when comparing null, undefined, NaN, and objects.
+
+
+
+// if statements
+
+lets us write multiple groups of code and decide which code to run
+//if the value in the brackets are true its going to run else it cannot run  the code.and if statements has another features called else .tat will excute if the values are in the above is not excuted.
+if (condition) {
+  // Code to execute if the condition is true
+}
+
+
+if statements in JavaScript are used to execute code based on whether a condition is true. Here's a detailed overview:
+
+Basic Syntax
+javascript
+Copy code
+if (condition) {
+  // Code to execute if the condition is true
+}
+
+Example:
+
+javascript
+Copy code
+let age = 18;
+
+if (age >= 18) {
+  console.log("You are eligible to vote.");
+}
+if-else Statement
+The else block runs if the if condition is false.
+
+if (condition) {
+  // Code to execute if the condition is true
+} else {
+  // Code to execute if the condition is false
+}
+let age = 16;
+
+if (age >= 18) {
+  console.log("You are eligible to vote.");
+} else {
+  console.log("You are not eligible to vote.");
+}
+
+
+if statements in JavaScript are used to execute code based on whether a condition is true. Here's a detailed overview:
+
+Basic Syntax
+javascript
+Copy code
+if (condition) {
+  // Code to execute if the condition is true
+}
+Example:
+
+javascript
+Copy code
+let age = 18;
+
+if (age >= 18) {
+  console.log("You are eligible to vote.");
+}
+if-else Statement
+The else block runs if the if condition is false.
+
+javascript
+Copy code
+if (condition) {
+  // Code to execute if the condition is true
+} else {
+  // Code to execute if the condition is false
+}
+Example:
+
+javascript
+Copy code
+let age = 16;
+
+if (age >= 18) {
+  console.log("You are eligible to vote.");
+} else {
+  console.log("You are not eligible to vote.");
+}
+
+
+if-else if-else Statement
+Allows testing multiple conditions sequentially.
+
+
+if (condition1) {
+  // Code to execute if condition1 is true
+} else if (condition2) {
+  // Code to execute if condition2 is true
+} else {
+  // Code to execute if none of the conditions are true
+}
+
+
+let score = 85;
+
+if (score >= 90) {
+  console.log("Grade: A");
+} else if (score >= 75) {
+  console.log("Grade: B");
+} else {
+  console.log("Grade: C");
+}
+
+// logical operator.
+let us conbined the boolen values
+
+
+
+
+
+In JavaScript, scope refers to the accessibility or visibility of variables, functions, and objects in certain parts of your code. It determines where in the code a variable or function can be accessed or modified.
+
+Types of Scope in JavaScript
+1. Global Scope
+Variables declared outside of any function or block belong to the global scope.
+These variables can be accessed and modified from anywhere in the program.
+Example:
+
+javascript
+Copy code
+let globalVariable = "I'm global!";
+
+function displayGlobal() {
+  console.log(globalVariable); // Accessible
+}
+
+displayGlobal(); // Output: I'm global!
+console.log(globalVariable); // Output: I'm global!
+2. Function Scope
+Variables declared inside a function using var, let, or const are only accessible within that function.
+They cannot be accessed outside the function.
+Example:
+
+javascript
+Copy code
+function displayMessage() {
+  let message = "Hello!";
+  console.log(message); // Accessible inside the function
+}
+
+displayMessage();
+// console.log(message); // Error: message is not defined
+3. Block Scope
+Variables declared with let and const inside a block {} are only accessible within that block.
+Variables declared with var are not block-scoped (see below).
+Example:
+
+javascript
+Copy code
+{
+  let blockScoped = "I'm block-scoped!";
+  console.log(blockScoped); // Accessible inside the block
+}
+// console.log(blockScoped); // Error: blockScoped is not defined
+4. Lexical Scope
+JavaScript uses lexical scoping, meaning a function’s scope is determined by its location in the code during definition, not during execution.
+Inner functions can access variables from their parent functions.
+Example:
+
+javascript
+Copy code
+function outerFunction() {
+  let outerVariable = "I'm from outer!";
+
+  function innerFunction() {
+    console.log(outerVariable); // Accessible
+  }
+
+  innerFunction();
+}
+
+outerFunction(); // Output: I'm from outer!
+Special Scoping Rules
+var Scope (Function Scope)
+var does not have block scope; it is scoped to the nearest function or global scope.
+Example:
+
+javascript
+Copy code
+if (true) {
+  var testVar = "I'm not block-scoped!";
+}
+console.log(testVar); // Accessible globally due to `var`
+let and const Scope (Block Scope)
+let and const are block-scoped, meaning they are only accessible within the block they are declared in.
+Example:
+
+javascript
+Copy code
+if (true) {
+  let testLet = "I'm block-scoped!";
+  const testConst = "I'm block-scoped too!";
+  console.log(testLet); // Accessible here
+  console.log(testConst); // Accessible here
+}
+// console.log(testLet); // Error: testLet is not defined
+// console.log(testConst); // Error: testConst is not defined
+Scope Chain
+When trying to access a variable, JavaScript looks for it in the current scope. If not found, it searches up the scope chain until it reaches the global scope.
+
+Example:
+
+javascript
+Copy code
+let globalVar = "I'm global!";
+
+function outerFunction() {
+  let outerVar = "I'm in outerFunction!";
+
+  function innerFunction() {
+    let innerVar = "I'm in innerFunction!";
+    console.log(globalVar); // Accessible
+    console.log(outerVar); // Accessible
+    console.log(innerVar); // Accessible
+  }
+
+  innerFunction();
+}
+
+outerFunction();
+Closures and Scope
+A closure occurs when a function retains access to its parent scope, even after the parent function has executed.
+
+Example:
+
+javascript
+Copy code
+function createCounter() {
+  let count = 0;
+
+  return function () {
+    count++;
+    return count;
+  };
+}
+
+const counter = createCounter();
+console.log(counter()); // Output: 1
+console.log(counter()); // Output: 2
+Hoisting and Scope
+Variables declared with var are hoisted to the top of their scope but remain undefined until they are assigned a value.
+let and const are hoisted too but are placed in a "temporal dead zone" until the code execution reaches their declaration.
+Example:
+
+javascript
+Copy code
+console.log(a); // undefined (hoisted but not initialized)
+var a = 10;
+
+// console.log(b); // Error: Cannot access 'b' before initialization
+let b = 20;
+Global Scope in the Browser
+In a browser environment:
+
+Variables declared globally become properties of the window object.
+javascript
+Copy code
+var globalVar = "I'm global!";
+console.log(window.globalVar); // "I'm global!"
+Summary
+Global Scope: Variables accessible everywhere.
+Function Scope: Variables defined inside a function are only accessible there.
+Block Scope: let and const limit variables to the block they are declared in.
+Lexical Scope: Inner functions can access outer function variables.
+Use let and const to avoid unexpected behaviors with var and ensure clean scoping.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
