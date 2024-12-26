@@ -399,6 +399,27 @@ Use let and const to avoid unexpected behaviors with var and ensure clean scopin
 
 
 
+// truth and faly values
+if statemets don't just work with the boolens values like true or false.wich will works with any types of values including the the string and numbers.
+  //truthy values and fales values
+                //the number 4 is working just like truthy values.
+               //the falsely values are false,0 '' NaN undefined
+               //any values that are not on these list are called the truthly values.
+               
+why we use the truthly and falsly values. because its short cuts.
+
+NaN(not a number)..we get NaN if we did invalid maths.
+ //the variable does not have the values.
+ we cannot use the undefined values undefined with const if we want to use it we must says const variable1 = undefined .but with let we can use it as we like.
+
+ tarnilory operatory (shortcuts for if statements)
+ true ?"truely" :"false" 
+ if the first condition is true the things after the ? is excuted else the thing after : is excuted.
+
+ shortcuts(Guard operator) for && 
+ the and oprator is checks if both sides are true.by checking both side if its true the values becames true. but if one of them are false it's values is false. so when both are the case we do not need to checks both of them if the first if false. because its impossible fo the for the result to becames true.
+ so whe do not need to check the second. this is 
+
 
 
 
