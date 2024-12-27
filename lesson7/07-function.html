@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>
+            the function practice
+        </title>
+        <body>
+
+            <script>
+                function function1(){
+                    console.log(`hello`);
+                    console.log(2 +2);
+                    return 6 ; // return values from function
+                   
+                }
+
+                function function2(){
+                    console.log(`hello`);
+                    console.log(2 +2);
+                    return  ; // return undifed
+
+                  
+                }
+                //
+
+                function function2(){
+                    console.log(`hello`);
+                    console.log(2 +2);
+                    return  ; // return undifed
+
+                     console.log(`after`) //does not run these code.
+                }
+                //
+
+              console.log(function1())  
+              console.log(function1()) 
+              
+              // parameters this will modifily the calculation of one only what if for 10000..
+              function calculateTax ()
+              {
+               console.log(1000*0.1) ;
+              }
+
+              calculateTax();
+              //let us put the values into the function.
+
+              function calculateTaxP(cost){
+                console.log(cost*0.1) ;
+
+              }
+              calculateTaxP(100077);
+              //every time we call the function we put the values in it.
+              //passing the values into the function(argumments)
+              calculateTaxP(18272);
+              //more than one parameters
+              function morethanOne(cost ,taxPercent=0.1) //defualt va;ues if the its not given it causes error.
+              
+              {
+                console.log(taxPercent) // undefined
+                // undefined * cost (not valid maths)
+                console.log(`the taxc is ${cost*taxPercent}`);
+              }
+              morethanOne(10004440,0.1);
+              morethanOne(1000); // undefined
+
+              
+
+
+
+            </script>
+        </body>
+    </header>
+</html>

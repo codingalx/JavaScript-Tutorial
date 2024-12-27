@@ -1,0 +1,41 @@
+what id function ?
+let us reuse the code .
+when we type the function name with bracket this will run the code inside the function.
+if we want to run the code inside the function again and adain we should call the function as much as we want to call it.
+the synthax rule for the function.the word function create the nwe function and we choose the name for our function.the naming of the function is the same as the naming of the variable.just the variable the best practice is to use the camelcase.
+in side the crurl bracket we put the code we want to run.
+when we use the function. its called the function body.
+function functionNane(){
+    function body
+}
+ function body --this only creates a function .it does not run the code inside it. in order to use the code(run) it inside the function we have to call the function name.
+
+ the use of function is just removing all duplicated code and replace them with one function call. another uses of the function is if we update the function we only updates it in one places.
+ // let us learn another features of the function which is called the return statemets. lets us get a value out of a function.
+ let us get the values from the function.we can return any thinwe want calculation 2+2, variables , math.randdom()... that means any things that results values.we can return it. this is called returning the values from a function.the values are called the retuen value.we can also do'nt return any thing from the function.
+ if we simple says retyrn ; it will return undefined.
+ // when we use a return statement, it ends the function immediately.so any code after the return would not result any values.
+
+ // the solution of the two for calling the computeMove the first one is by using the Global decliration. and the second one is by using return way from the function and save the values into another values.
+ // the returning the values more preferable than decliration of the global.
+ beacuse the scope is preventing us from the anming conflict.
+  // parameters
+  parameters is the opposite 
+  pu the values into the function.and we use it .
+  parameters just work just like the variables.
+  we can save put the values in it and use as the valw..
+  synthax rule 
+  to create the paramenter we create the parameners name inside the curly brackets. the naming of the curly brackets are the same as naming of the varaibes and the function.
+  we cannot use special works like function
+  we cannot start with a number 
+  we acnnot use the special characters except:$_
+  the best practice is to use the cameCase.
+  the parameters only exist in the parameters scope.
+  we cannot use out side the {}.
+  the function can take more than one paratmeters.
+  // function let us reuse the code..
+  // return = get the values out of a function
+  // parameners = put values into a function
+
+
+

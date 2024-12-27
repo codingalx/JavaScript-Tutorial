@@ -4,41 +4,70 @@
         <title>Card Quantity </title>
     </header>
     <body>
+
         <button onclick="
         console.log(`cardQuantity:${cardQuantity}`)
             ">Show Quantity
         </button>
+
+
         <button onclick="
         // cardQuantity =cardQuantity +1;
         // cardQuantity+=1 the short ways
-        cardQuantity ++;
-        console.log(`cardQuantity:${cardQuantity }`)
+        if((cardQuantity ++) <= maximumQuantity){
+           
+            cardQuantity ++;
+            console.log(`cardQuantity:${cardQuantity }`)
+            console.log(`it as usual`)
+        }
+        else{
+            console.log(`The cart is full and don't update`)
+        }
         "
         >Add to Cart
     </button>
+
         <button onclick="
-        cardQuantity =cardQuantity+2;
+        if((cardQuantity +=2 ) <= maximumQuantity){
+            cardQuantity =cardQuantity+2;
         console.log(`cardQuantity:${cardQuantity}`)
+        }
+        else{
+            console.log(`The cart is full and don't update`)
+        }
+        
         ">
             +2
         </button>
 
         <button onclick="
-        cardQuantity = cardQuantity +3;
-        console.log(`card was reset:${cardQuantity }`)
+        if((cardQuantity += 3) <= maximumQuantity){
+            cardQuantity = cardQuantity +3;
+            console.log(`card was reset:${cardQuantity }`)
+        }
+         else{
+            console.log(`The cart is full and don't update`) 
+         }
         ">
             +3
         </button>
 
                 
         <button onclick="
-        cardQuantity = cardQuantity +4;
-        console.log(`cardQuantity:${cardQuantity }`)
+
+           if((cardQuantity += 4) <= maximumQuantity){
+            cardQuantity = cardQuantity +4;
+            console.log(`card was reset:${cardQuantity }`)
+        }
+         else{
+            console.log(`The cart is full and don't update`) 
+         }
         ">
             +4
         </button>
 
         <button onclick="
+        if((cardQuantity += 5 <= maximumQuantity))
         cardQuantity = cardQuantity +5;
         console.log(`cardQuantity:${cardQuantity }`)
         ">
@@ -47,34 +76,59 @@
 
         
         <button onclick="
-        cardQuantity = cardQuantity -1;
+        if((cardQuantity -= 1 > 0)){
+            cardQuantity = cardQuantity -1;
         console.log(`cardQuantity:${cardQuantity }`)
+        }
+      
+        else{
+            console.log(`Not enough items in card don't update the quantity`)
+         }
         ">
             Remove from cart
         </button>
 
         <button onclick="
-        cardQuantity = cardQuantity -2;
-        console.log(`cardQuantity:${cardQuantity }`)
+        if(cardQuantity -= 2 >0){
+         cardQuantity = cardQuantity -2;
+        console.log(`cardQuantity:${cardQuantity }`)}
+        else{
+            console.log(`Not enough items in card don't update the quantity`)
+         }
+        
+        
         ">
             -2
         </button>
 
         <button onclick="
-        cardQuantity = cardQuantity -3;
-        console.log(`cardQuantity:${cardQuantity }`)
+         if(cardQuantity -= 2 >0){
+            cardQuantity = cardQuantity -2;
+            console.log(`cardQuantity:${cardQuantity }`)
+         }
+         else{
+            console.log(`Not enough items in card don't update the quantity`)
+         }
+
+       
         ">
             -3
         </button>
 
         <button onclick="
-        cardQuantity=0;
-        console.log(`cardQuantity:${cardQuantity }`)
+        if(cardQuantity -= 3 >0){
+            cardQuantity = cardQuantity -3;
+            console.log(`cardQuantity:${cardQuantity }`)
+         }
+         else{
+            console.log(`Not enough items in card don't update the quantity`)
+         }
         ">
             Reset Cart
         </button>
         <script>
             let cardQuantity =0;
+            const maximumQuantity = 10;
         
         </script>
         
